@@ -1,6 +1,6 @@
 // ported tests from YUI to expresso
 
-var sl = require('sweepline')
+var sl = require('./index')
   , Point = sl.Point
   , assert = require('assert')
   , _ = require('underscore');

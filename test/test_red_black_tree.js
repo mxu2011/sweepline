@@ -1,4 +1,4 @@
-var sl = require('sweepline')
+var sl = require('./index')
   , RedBlackTree = sl.RedBlackTree
   , assert = require('assert')
   , _ = require('underscore');

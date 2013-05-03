@@ -1,4 +1,4 @@
-var sl = require('sweepline')
+var sl = require('./index')
   , Polygon = sl.Polygon
   , Point = sl.Point
   , assert = require('assert')
