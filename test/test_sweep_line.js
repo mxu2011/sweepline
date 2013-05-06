@@ -7,7 +7,7 @@ var sl = require('./index')
   , _ = require('underscore');
 
 
-
+  console.log('test can find');
 
 
   geojson = [[100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0]];
@@ -19,11 +19,12 @@ var sl = require('./index')
   while (ev = event_queue.events.pop()){
     sweep_line.add(ev);
   }
-  
-  var nd = sweep_line.find({edge:1});
 
-  console.log("nd="+nd.toString())
-
+  for(var i= 0;i<4; i++)
+    {
+        assert.ok(sweep_line.find({edge:i}))
+    }
+    _
 
 
 //more tests here!
