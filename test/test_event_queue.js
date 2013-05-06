@@ -11,6 +11,9 @@ var sl          = require('./index')
   var polygon = new Polygon(points);
   var event_queue = new EventQueue(polygon);
 
+    console.log('event_queue.events.length='+event_queue.events.length);
+    console.log('event_queue.number_of_events='+event_queue.number_of_events);
+
   assert.equal(event_queue.events.length, 8);
   assert.equal(event_queue.events.length, event_queue.number_of_events);
 
