@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="483ec0c3-8d8b-4f5b-ade5-f5fe62b4eef8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_sweep_line.js" afterPath="$PROJECT_DIR$/test/test_sweep_line.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_polygon.js" afterPath="$PROJECT_DIR$/test/test_polygon.js" />
     </list>
     <ignored path="sweepline.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,6 +16,7 @@
     <file path="$PROJECT_DIR$/../winding-polygon/spec/sweep_line_spec.rb" changelist="483ec0c3-8d8b-4f5b-ade5-f5fe62b4eef8" time="1367874716527" ignored="false" />
     <file path="/a.dummy" changelist="483ec0c3-8d8b-4f5b-ade5-f5fe62b4eef8" time="1367878661959" ignored="false" />
     <file path="/test_sweep_line.js" changelist="483ec0c3-8d8b-4f5b-ade5-f5fe62b4eef8" time="1367879530256" ignored="false" />
+    <file path="/test_polygon.js" changelist="483ec0c3-8d8b-4f5b-ade5-f5fe62b4eef8" time="1367882504406" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="point.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/sweepline/point.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="red_black_node.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="red_black_node.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/sweepline/red_black_node.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="356" selection-end="359" vertical-scroll-proportion="-7.48">
+            <state line="26" column="7" selection-start="356" selection-end="359" vertical-scroll-proportion="-3.625387">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -61,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_sweep_line.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test_sweep_line.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_sweep_line.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="226" selection-end="226" vertical-scroll-proportion="0.27175844">
+            <state line="9" column="28" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,7 +83,30 @@
       <file leaf-file-name="red_black_tree.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/sweepline/red_black_tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="21" selection-start="3967" selection-end="3967" vertical-scroll-proportion="-3.56">
+            <state line="256" column="0" selection-start="4706" selection-end="4706" vertical-scroll-proportion="41.48">
+              <folding>
+                <element signature="e#481#590#0" expanded="false" />
+                <element signature="e#625#656#0" expanded="false" />
+                <element signature="e#723#1313#0" expanded="false" />
+                <element signature="e#1412#1740#0" expanded="false" />
+                <element signature="e#1839#2165#0" expanded="false" />
+                <element signature="e#2251#2828#0" expanded="false" />
+                <element signature="e#2922#3496#0" expanded="false" />
+                <element signature="e#3603#3867#0" expanded="false" />
+                <element signature="e#3944#4040#0" expanded="false" />
+                <element signature="e#4125#4271#0" expanded="false" />
+                <element signature="e#4364#4514#0" expanded="false" />
+                <element signature="e#4584#4676#0" expanded="false" />
+                <element signature="e#4746#4838#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_polygon.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_polygon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="37" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -150,8 +165,8 @@
         <option value="$PROJECT_DIR$/test/test_red_black_tree.js" />
         <option value="$PROJECT_DIR$/test/test_event_queue.js" />
         <option value="$PROJECT_DIR$/lib/sweepline/event.rb" />
-        <option value="$PROJECT_DIR$/test/test_polygon.js" />
         <option value="$PROJECT_DIR$/test/test_sweep_line.js" />
+        <option value="$PROJECT_DIR$/test/test_polygon.js" />
       </list>
     </option>
   </component>
@@ -312,10 +327,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36666667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25053763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22154222" sideWeight="0.6333333" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22154222" sideWeight="0.74946237" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -413,13 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_polygon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="66" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/sweepline/point.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="16" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
@@ -441,25 +449,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sweepline/red_black_node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="356" selection-end="359" vertical-scroll-proportion="-7.48">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/sweepline/polygon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="25" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/sweepline/red_black_tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="21" selection-start="3967" selection-end="3967" vertical-scroll-proportion="-3.56">
           <folding />
         </state>
       </provider>
@@ -496,8 +488,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_sweep_line.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="226" selection-end="226" vertical-scroll-proportion="0.27175844">
+        <state line="9" column="28" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_polygon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="37" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sweepline/red_black_tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="256" column="0" selection-start="4706" selection-end="4706" vertical-scroll-proportion="41.48">
+          <folding>
+            <element signature="e#481#590#0" expanded="false" />
+            <element signature="e#625#656#0" expanded="false" />
+            <element signature="e#723#1313#0" expanded="false" />
+            <element signature="e#1412#1740#0" expanded="false" />
+            <element signature="e#1839#2165#0" expanded="false" />
+            <element signature="e#2251#2828#0" expanded="false" />
+            <element signature="e#2922#3496#0" expanded="false" />
+            <element signature="e#3603#3867#0" expanded="false" />
+            <element signature="e#3944#4040#0" expanded="false" />
+            <element signature="e#4125#4271#0" expanded="false" />
+            <element signature="e#4364#4514#0" expanded="false" />
+            <element signature="e#4584#4676#0" expanded="false" />
+            <element signature="e#4746#4838#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/sweepline/red_black_node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="7" selection-start="356" selection-end="359" vertical-scroll-proportion="-3.625387">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

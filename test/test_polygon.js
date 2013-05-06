@@ -38,13 +38,20 @@ console.log('test is polygon simple 3')
   
   assert.ok(polygon.simple_polygon(), "polygon is simple");
 
-
 console.log('test is polygon simple 4')
+var geom = [[0.0, 0.0], [0.0, 3.0], [3.0, 3.0], [3.0, 0.0], [0.0, 0.0]];
+var points  = _.map(geom, function(pnt){ return new Point(pnt[0],pnt[1]); });
+var polygon = new Polygon(points);
+
+assert.ok(polygon.simple_polygon(), "polygon is simple");
+
+
+console.log('test is polygon simple 5')
   var geom = [[2.0, 2.0], [2.0, 3.0], [3.0, 3.0], [4.0, 3.0], [4.0, 2.0], [2.000001, 2.00001]];
   var points  = _.map(geom, function(pnt){ return new Point(pnt[0],pnt[1]); });
   var polygon = new Polygon(points);
   
-  assert.ok(polygon.simple_polygon(), "polygon is complex");
+  assert.ok(polygon.simple_polygon(), "polygon is simple");
 
 
 console.log('test is polygon complex 1')
@@ -62,5 +69,12 @@ console.log('test is polygon complex 2')
   
   assert.ok(!polygon.simple_polygon(), "polygon is complex");
 
+
+console.log('test is polygon complex 3')
+var geom = [[0.0, 0.0], [3.0, 3.0], [0.0, 3.0], [3.0, 0.0], [0.0, 0.0]];
+var points  = _.map(geom, function(pnt){ return new Point(pnt[0],pnt[1]); });
+var polygon = new Polygon(points);
+
+assert.ok(!polygon.simple_polygon(), "polygon is complex");
 
 
